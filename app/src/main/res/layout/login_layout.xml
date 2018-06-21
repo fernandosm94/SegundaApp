@@ -1,9 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="br.senac.sp.l13.segundaapp.LoginActivity">
+    android:orientation="vertical"
+    tools:context="br.senac.sp.l13.segundaapp.LoginActivity"
+    android:background="#208199">
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Página de Login"
+        android:textColor="#4d000000"
+        android:textStyle="bold"
+        android:textSize="50dp"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is a Test Button"
+        android:textAllCaps="false"
+
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="100dp"
+        android:textStyle="italic"
+        android:textColor="#80ffffff"
+        android:text="Lorem Ipsum"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        />
+
+</LinearLayout>

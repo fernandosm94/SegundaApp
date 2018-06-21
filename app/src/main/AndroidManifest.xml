@@ -11,17 +11,18 @@
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity"
             android:label="Atividade Principal Main">
+
         </activity>
         <activity android:name=".LoginActivity"
             android:label="Atividade de Login">
-        </activity>
-        <activity android:name=".PrincipalActivity"
-            android:label="Ativididade Principal que não é Main">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".PrincipalActivity"
+            android:label="Ativididade Principal que não é Main">
         </activity>
     </application>
 
